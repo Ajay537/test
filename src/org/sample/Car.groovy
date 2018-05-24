@@ -1,3 +1,5 @@
-def echoVar(args){
-    sh "echo ${args}"
+package org.sample
+
+class GlobalVariables {
+    static String name = "Car.groovy";
 }
