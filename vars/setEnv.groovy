@@ -3,7 +3,4 @@ def call(Map config){
     def path = config.path
     sh "echo ${name}"
     sh "echo ${path}"
-    withEnv(["${name}=${path}"]{
-        sh "done"
-    }
 }
